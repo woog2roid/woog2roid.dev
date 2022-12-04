@@ -1,5 +1,5 @@
 ---
-title: '첫 해커톤 회고록 (고려대학교 여름 해커톤: 함께하는 항해)'
+title: '첫 해커톤 회고록'
 date: 2022-9-3 16:21:13
 category: 'Memoir'
 draft: false
