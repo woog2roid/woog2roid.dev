@@ -60,6 +60,16 @@ module.exports = {
               inlineCodeMarker: '%',
             },
           },
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              offsetY: `100`,
+              maintainCase: true,
+              removeAccents: true,
+              isIconAfterHeader: false,
+              elements: [`h1`, `h2`, `h3`, `h4`],
+            },
+          },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
           `gatsby-remark-autolink-headers`,

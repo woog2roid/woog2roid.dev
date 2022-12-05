@@ -55,7 +55,8 @@ body.dark {
     }
   }
 
-  .footer {
+  .footer,
+  .toc {
     color: $dark-middle-font-color;
     a {
       color: $dark-lightest-font-color;
