@@ -1,0 +1,19 @@
+name: Auto Deploy
+
+on:
+    push:
+      branches:
+        - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+      
+    - name: Deploy
+      uses: enriikke/gatsby-gh-pages-action@v2
+      with:
+        access-token: ${{ secrets.ACCESS_TOKEN }}
+        deploy-branch: gh-pages
