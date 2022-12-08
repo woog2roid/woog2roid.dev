@@ -1,6 +1,6 @@
 {
   "name": "woog2roid.dev",
-  "homepage": "https://www.woog2roid.dev",
+  "homepage": "https://woog2roid.dev",
   "repository": "https:://github.com/woog2roid/woog2roid.dev",
   "dependencies": {
     "gatsby": "^2.2.8",
