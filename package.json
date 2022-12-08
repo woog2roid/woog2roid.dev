@@ -75,9 +75,9 @@
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "develop": "gatsby develop",
     "start": "npm run develop",
-    "build": "gatsby build",
     "cname": "echo woog2roid.dev > public//CNAME",
-    "predeploy": "yarn build && yarn cname",
+    "build": "gatsby build  && yarn cname",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d public",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
