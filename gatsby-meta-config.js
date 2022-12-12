@@ -1,5 +1,5 @@
 module.exports = {
-  title: `Dev Blog(woog2roid)`,
+  title: `Dev Blog(Woo)`,
   description: `Blog posted about my development experiences`,
   author: `woog2roid`,
   introduction: `나의 발전하는 과정을 기록하기✒️`,
@@ -16,7 +16,7 @@ module.exports = {
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: '', // Your repository for archive comment
+    utterances: 'woog2roid/woog2roid.dev', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
@@ -29,5 +29,4 @@ module.exports = {
   },
   ga: '0', // Add your google analytics tranking ID
   ad: '', // Add your google adsense publisherId `ca-pub-xxxxxxxxxx`
-
 }
