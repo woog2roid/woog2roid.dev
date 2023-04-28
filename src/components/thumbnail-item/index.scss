@@ -4,12 +4,16 @@
   display: block;
   margin: 25px 0 25px 0;
   padding: 0px 25px;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
   border: 1px solid #ecf0f2;
   border-radius: 4px;
   box-shadow: 0 1px 5px #00000023, 0 1px 1px #a9ceff57;
   transition: text-shadow 0.3s, opacity 0.4s;
   opacity: 0;
+
+  p {
+    margin: 0;
+  }
 
   .summary {
     font-size: 90%;
@@ -22,13 +26,9 @@
   }
 
   @media screen and (max-width: 480px) {
-    padding: 0px 12px 12px 12px;
+    padding: 0px 12px 25px 12px;
     margin: 12px 0px;
     font-size: 80%;
-
-    p {
-      margin: 10px 0;
-    }
 
     .summary {
       font-size: 90%;
