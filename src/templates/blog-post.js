@@ -5,7 +5,7 @@ import * as Elements from '../components/elements'
 import { Layout } from '../layout'
 import { Head } from '../components/head'
 import { PostTitle } from '../components/post-title'
-import { PostDate } from '../components/post-date'
+import { PostInfo } from '../components/post-info'
 import { PostContainer } from '../components/post-container'
 import { PostToc } from '../components/post-toc'
 import { SocialShare } from '../components/social-share'
@@ -30,13 +30,13 @@ export default ({ data, pageContext, location }) => {
   const metaData = data.site.siteMetadata
   const { title, comment, siteUrl, author, sponsor } = metaData
   const { disqusShortName, utterances } = comment
-  const { title: postTitle, date } = post.frontmatter
+  const { title: postTitle, date, category } = post.frontmatter
 
   return (
     <Layout location={location} title={title}>
       <Head title={postTitle} description={post.excerpt} />
       <PostTitle title={postTitle} />
-      <PostDate date={date} />
+      <PostInfo category={category} date={date} />
       <PostContainer html={post.html} />
       <PostToc toc={post.tableOfContents} />
       <SocialShare title={postTitle} author={author} />
@@ -77,12 +77,13 @@ export const pageQuery = graphql`
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
-      excerpt(pruneLength: 280)
+      excerpt(pruneLength: 100)
       html
       tableOfContents
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        category
       }
     }
   }

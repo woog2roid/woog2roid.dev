@@ -1,0 +1,63 @@
+@import '../../styles/variables.scss';
+
+.tag-container {
+  line-height: 0;
+  white-space: nowrap;
+  overflow-x: scroll;
+
+  .item {
+    display: inline-block;
+    align-content: flex-end;
+    margin: 0.25rem 6px 0.25rem 0;
+    border-radius: 15px;
+    white-space: normal;
+    box-sizing: border-box;
+    background-color: rgba(100, 100, 100, 0.1);
+
+    div {
+      font-weight: 500;
+      color: $light-category-text-color;
+      display: block;
+      padding: 10px 12px 12px 12px;
+      font-size: 12px;
+      box-sizing: border-box;
+    }
+
+    @media screen and (max-width: 1400px) {
+      -ms-overflow-style: none; // IE 10+
+      overflow: -moz-scrollbars-none; // Firefox
+    }
+  }
+
+  .item:last-child {
+    margin-right: 0;
+  }
+}
+
+.tag-container::-webkit-scrollbar {
+  @media screen and (max-width: 1400px) {
+    display: none;
+  }
+  width: 8px;
+}
+.tag-container::-webkit-scrollbar-thumb {
+  height: 30%;
+  background: $middle-gray;
+
+  border-radius: 10px;
+}
+.tag-container::-webkit-scrollbar-track {
+  background: rgba(33, 122, 244, 0.1);
+}
+.tag-container::-webkit-scrollbar {
+  height: 5px;
+}
+.tag-container {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .my-smooth-container {
+    scroll-behavior: auto;
+  }
+}
