@@ -1,6 +1,6 @@
 module.exports = {
   title: `Dev Blog(Woo)`,
-  description: `Blog posted about my development experiences`,
+  description: `Woog2roid | Blog about my development experiences`,
   author: `woog2roid`,
   introduction: `나의 발전하는 과정을 기록하기✒️`,
   siteUrl: `https://woog2roid.dev`, // Your blog site url
