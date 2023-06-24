@@ -3,7 +3,7 @@ title: '첫 해커톤 회고록'
 date: 2022-9-3 16:21:13
 category: 'Memoir'
 draft: false
-tags: ['해커톤', 'NextJS', 'supabase', '서버리스']
+tags: ['해커톤', 'NextJS', '서버리스']
 ---
 
 ![](https://velog.velcdn.com/images/woog2roid/post/74852e87-9910-4306-aebc-23150b394168/image.png)

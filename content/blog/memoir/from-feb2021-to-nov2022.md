@@ -3,16 +3,7 @@ title: '개발을 시작하고 지금까지의 기록'
 date: 2022-12-13 12:00:00
 category: 'Memoir'
 draft: false
-tags:
-  [
-    '토이프로젝트',
-    '웹 풀스택',
-    'reactJS',
-    'expressJS',
-    'nestJS',
-    '크롬 확장프로그램',
-    '서비스 운영',
-  ]
+tags: ['토이프로젝트', '서비스', '웹 풀스택', 'reactJS', 'express', 'nestJS']
 ---
 
 # 회고
