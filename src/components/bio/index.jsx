@@ -36,11 +36,7 @@ export const Bio = forwardRef((props, ref) => {
                       </a>
                     )}
                     {social.github && (
-                      <a
-                        href={`https://github.com/${social.github}/woog2roid.dev`}
-                      >
-                        GitHub
-                      </a>
+                      <a href={`https://github.com/${social.github}`}>GitHub</a>
                     )}
                     {social.medium && (
                       <a href={`https://medium.com/${social.medium}`}>Medium</a>
