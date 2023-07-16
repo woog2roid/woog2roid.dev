@@ -25,7 +25,7 @@ tags: ['토이프로젝트', '서비스', '웹 풀스택', 'reactJS', 'express',
 ## 크롬 익스텐션
 
 > _[소스 코드](https://github.com/woog2roid/tabs-shortcut-chrome-extension)_  
-> <img src="./images/from-feb2021-to-nov2022/chrome-extention.gif" style="height: 240px">  
+> <img src="./images/record-until-military-discharge/chrome-extention.gif" style="height: 240px">  
 > `[HTNL + CSS + JS]`
 
 HTML, CSS, JS를 배우고 처음으로 만들어본 프로젝트이다. 학교 동기랑 같이 <u>[chrome extention get started](https://developer.chrome.com/docs/extensions/mv3/getstarted/)</u>를 읽으며 서로 각자의 주제를 잡고 확장프로그램을 만들었었다.
@@ -38,7 +38,7 @@ HTML, CSS, JS를 배우고 처음으로 만들어본 프로젝트이다. 학교 
 ## 격투기 프로젝트
 
 > _[웹 사이트](https://mma.woog2roid.dev) | [소스 코드](https://github.com/woog2roid/mma-fighter-finder)_  
-> ![demo](./images/from-feb2021-to-nov2022/mma-demo.gif)  
+> ![demo](./images/record-until-military-discharge/mma-demo.gif)  
 > `Front: [React + styled-components]`  
 > `Back: [nodeJS]`
 
@@ -58,7 +58,7 @@ MMA관련한 공신력있는 public API가 없어서 github에서 크롤링을 �
 ## 주차장 프로젝트
 
 > _[웹 사이트](https://seoul.woog2roid.dev) | [소스 코드](https://github.com/woog2roid/seoul-parking-lot-finder)_  
-> <img src="./images/from-feb2021-to-nov2022/seoul-demo.gif" style="height: 240px">  
+> <img src="./images/record-until-military-discharge/seoul-demo.gif" style="height: 240px">  
 > `Front: [React + contextAPI + styled-components + bootstrap]`  
 > `Back: [nodeJS]`
 
@@ -76,7 +76,7 @@ Linux의 crontab이용해서 매일 새벽 4시마다 서버에서 서울시 주
 ## 투두 앱
 
 > _[웹 사이트](https://todo.woog2roid.dev) | [소스 코드(프론트엔드)](https://github.com/woog2roid/todo-frontend) | [소스 코드(백엔드)](https://github.com/woog2roid/todo-backend)_  
-> <img src="./images/from-feb2021-to-nov2022/todo-demo.gif" style="height: 240px"/>  
+> <img src="./images/record-until-military-discharge/todo-demo.gif" style="height: 240px"/>  
 > `Front: [React + contextAPI + MUI + emotion]`  
 > `Back: [Express + Sequelize + MySQL]`
 
@@ -115,7 +115,7 @@ JWT토큰 회원인증을 Passport없이 구현해보는 것과 ORM을 사용하
 ## 놀이터 프로젝트
 
 > _[웹 사이트](https://playground.woog2roid.dev) | [소스 코드(프론트엔드)](https://github.com/woog2roid/playground-frontend) | [소스 코드(백엔드)](https://github.com/woog2roid/playground-backend)_  
-> ![demo](./images/from-feb2021-to-nov2022/playground-demo.gif)  
+> ![demo](./images/record-until-military-discharge/playground-demo.gif)  
 > `Front: [React + TypeScript + SWR + MUI + emotion]`  
 > `Back: [NestJS + TypeORM + MySQL + SocketIO]`
 
