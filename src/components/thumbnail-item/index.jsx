@@ -9,7 +9,11 @@ export const ThumbnailItem = ({ node }) => (
   <div className={`thumbnail ${TARGET_CLASS}`}>
     <div key={node.fields.slug}>
       <Link to={node.fields.slug}>
-        <h3>{node.frontmatter.title || node.fields.slug}</h3>
+        <h3>
+          {node.frontmatter.title.length > 30 ?
+            node.frontmatter.title.substring(0, 30) + '...' :
+            node.frontmatter.title}
+        </h3>
       </Link>
       <p style={{ fontWeight: '500' }}>
         <span>{node.frontmatter.category} | </span>
