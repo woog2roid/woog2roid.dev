@@ -25,10 +25,10 @@ tags: ['토이프로젝트', '서비스', '웹 풀스택', 'reactJS', 'express',
 ## 크롬 익스텐션
 
 > _[소스 코드](https://github.com/woog2roid/tabs-shortcut-chrome-extension)_  
-> <img src="./images/record-until-military-discharge/chrome-extention.gif" style="height: 240px">  
+> <img src="./images/chrome-extention.gif" style="height: 240px">  
 > `[HTNL + CSS + JS]`
 
-HTML, CSS, JS를 배우고 처음으로 만들어본 프로젝트이다. 학교 동기랑 같이 <u>[chrome extention get started](https://developer.chrome.com/docs/extensions/mv3/getstarted/)</u>를 읽으며 서로 각자의 주제를 잡고 확장프로그램을 만들었었다.
+HTML, CSS, JS를 배우고 처음으로 만들어본 프로젝트이다. 학교 동기랑 같이 [chrome extention get started](https://developer.chrome.com/docs/extensions/mv3/getstarted/)를 읽으며 서로 각자의 주제를 잡고 확장프로그램을 만들었었다.
 평소에 찾는 정보가 있으면 여러개의 탭을 띄워놓고 정보를 취합하곤 했었는데, 북마크 기능은 있어도, 탭 묶음 자체를 저장하는 기능이 없어서 만들게 되었다.
 탭 묶음을 즐겨찾기처럼 한 번에 저장하고 한 번에 띄워주는 확장 프로그램이며, 최대한 사용법도 직관적으로 만들려고 노력했다.
 
@@ -38,7 +38,7 @@ HTML, CSS, JS를 배우고 처음으로 만들어본 프로젝트이다. 학교 
 ## 격투기 프로젝트
 
 > _[웹 사이트](https://mma.woog2roid.dev) | [소스 코드](https://github.com/woog2roid/mma-fighter-finder)_  
-> ![demo](./images/record-until-military-discharge/mma-demo.gif)  
+> ![demo](./images/mma-demo.gif)  
 > `Front: [React + styled-components]`  
 > `Back: [nodeJS]`
 
@@ -48,8 +48,8 @@ HTML, CSS, JS를 배우고 처음으로 만들어본 프로젝트이다. 학교 
 첫 리액트 프로젝트인 만큼 실용성이 있는 주제로 해보고 싶었고, 실제로 주변에서 잘 써줘서 엄청 기억에 남는 프로젝트이기도 하다.
 원래는 반응형으로 만들 생각이 없었는데, 주변에서 모바일로는 들어갈 수는 없냐고 물어봐줘서 반응형으로도 제작하였다.
 
-MMA관련한 공신력있는 public API가 없어서 github에서 크롤링을 하는 <u>[valish/mma-api](https://github.com/valish/mma-api)</u>를 찾아서 사용하였다.
-하지만 19년도 이후로 업데이트도 되지 않고 하여서 작동하지 않았고, 따로 <u>[woog2roid/mma-api](https://github.com/woog2roid/mma-api)</u>를 만들어 사용하였다.
+MMA관련한 공신력있는 public API가 없어서 github에서 크롤링을 하는 [valish/mma-api](https://github.com/valish/mma-api)를 찾아서 사용하였다.
+하지만 19년도 이후로 업데이트도 되지 않고 하여서 작동하지 않았고, 따로 [woog2roid/mma-api](https://github.com/woog2roid/mma-api)를 만들어 사용하였다.
 
 처음으로 웹 사이트를 만들어 배포해보며, 기본적인 CORS 오류부터 개인 도메인을 가져보기까지 참 많은 경험들을 해볼 수 있어서 좋았다.
 
@@ -58,7 +58,7 @@ MMA관련한 공신력있는 public API가 없어서 github에서 크롤링을 �
 ## 주차장 프로젝트
 
 > _[웹 사이트](https://seoul.woog2roid.dev) | [소스 코드](https://github.com/woog2roid/seoul-parking-lot-finder)_  
-> <img src="./images/record-until-military-discharge/seoul-demo.gif" style="height: 240px">  
+> <img src="./images/seoul-demo.gif" style="height: 240px">  
 > `Front: [React + contextAPI + styled-components + bootstrap]`  
 > `Back: [nodeJS]`
 
@@ -76,7 +76,7 @@ Linux의 crontab이용해서 매일 새벽 4시마다 서버에서 서울시 주
 ## 투두 앱
 
 > _[웹 사이트](https://todo.woog2roid.dev) | [소스 코드(프론트엔드)](https://github.com/woog2roid/todo-frontend) | [소스 코드(백엔드)](https://github.com/woog2roid/todo-backend)_  
-> <img src="./images/record-until-military-discharge/todo-demo.gif" style="height: 240px"/>  
+> <img src="./images/todo-demo.gif" style="height: 240px"/>  
 > `Front: [React + contextAPI + MUI + emotion]`  
 > `Back: [Express + Sequelize + MySQL]`
 
@@ -115,7 +115,7 @@ JWT토큰 회원인증을 Passport없이 구현해보는 것과 ORM을 사용하
 ## 놀이터 프로젝트
 
 > _[웹 사이트](https://playground.woog2roid.dev) | [소스 코드(프론트엔드)](https://github.com/woog2roid/playground-frontend) | [소스 코드(백엔드)](https://github.com/woog2roid/playground-backend)_  
-> ![demo](./images/record-until-military-discharge/playground-demo.gif)  
+> ![demo](./images/playground-demo.gif)  
 > `Front: [React + TypeScript + SWR + MUI + emotion]`  
 > `Back: [NestJS + TypeORM + MySQL + SocketIO]`
 
@@ -124,7 +124,7 @@ JWT토큰 회원인증을 Passport없이 구현해보는 것과 ORM을 사용하
 실사용 목적의 프로젝트라서 나름 디자인적인 면도 신경을 썼었다.
 
 실사용을 목표로 한 프로젝트 치고는 상당히 도전적인 스택을 사용했던 프로젝트이다.
-<u>[NestJS](https://nestjs.com/)</u> 뿐 아니라 프론트에서도 TS, <u>[SWR](https://swr.vercel.app/ko)</u>은 처음 써보는 스택들이었다.
+[NestJS](https://nestjs.com/) 뿐 아니라 프론트에서도 TS, [SWR](https://swr.vercel.app/ko)은 처음 써보는 스택들이었다.
 그런 이유 때문에, 미리 공부를 하긴 했으나, 예상했던 것보다 기간이 더 오래 걸렸던 듯 하다.
 하지만, 새로운 스택을 배워서 쓰는 경험을 하는 게 너무 의미있었다.
 docs를 읽고 익히는 것이 꽤 어려웠지만, 이러한 경험들이 쌓이면 나중에는 새로운 기술도

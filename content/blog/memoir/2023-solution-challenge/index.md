@@ -12,7 +12,7 @@ tags: ['GDSC', '솔루션 챌린지', '팀 프로젝트']
 
 # Guide Eye: 시각장애인 보행 도우미
 
-![](./images/2023-solution-challenge/guide-eye-thumbnail.png)
+![](./images/guide-eye-thumbnail.png)
 
 > 가슴에 모바일 기기(스마트폰)를 부착하고, 실시간으로 보행 중 위험을 워치나 휴대전화 진동과 음성으로 알려주는 서비스
 >
