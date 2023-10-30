@@ -1,9 +1,14 @@
 .toc {
   position: fixed;
   top: 50%;
-  transform: translate(-50%, -50%);
-  right: 60px;
-  font-size: 0.9rem;
+  right: 30px;
+  transform: translateY(-50%);
+  width: 200px;
+  padding: 5px;
+
+  border-left: 2px solid;
+
+  font-size: 0.8rem;
   font-weight: 500;
   opacity: 0.625;
 
@@ -15,12 +20,13 @@
   }
 
   a {
+    text-overflow: ellipsis;
     &:hover {
       text-decoration: wavy underline;
     }
   }
 
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1280px) {
     display: none;
   }
 }
