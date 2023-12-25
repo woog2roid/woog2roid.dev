@@ -9,7 +9,7 @@ module.exports = {
     github: `woog2roid`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
-    linkedin: ``, // Your LinkedIn account
+    linkedin: `woog2roid`, // Your LinkedIn account
     instagram: ``, // Your Instagram account
   },
   icon: `content/assets/favicon.png`, // Add your favicon
