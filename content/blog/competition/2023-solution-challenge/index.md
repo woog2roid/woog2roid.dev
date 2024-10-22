@@ -1,7 +1,7 @@
 ---
 title: '2023 GDSC 솔루션 챌린지 회고록'
 date: 2023-07-17 12:00:00
-category: 'Recap'
+category: 'Competition'
 draft: false
 tags: ['GDSC', '솔루션 챌린지', '팀 프로젝트']
 ---

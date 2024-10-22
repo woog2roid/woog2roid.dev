@@ -1,7 +1,7 @@
 ---
 title: '첫 해커톤 회고록'
 date: 2022-9-3 16:21:13
-category: 'Recap'
+category: 'Competition'
 draft: false
 tags: ['해커톤', 'NextJS', '서버리스']
 ---
