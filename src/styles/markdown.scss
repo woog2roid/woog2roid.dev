@@ -167,7 +167,7 @@
   margin: 0.67em 0;
   font-weight: 600;
   padding-bottom: 0.3em;
-  font-size: 1.675em;
+  font-size: 1.45em;
   border-bottom: 1px solid var(--color-border-muted);
 }
 
@@ -353,7 +353,7 @@
 .markdown-body h2 {
   font-weight: 600;
   padding-bottom: 0.3em;
-  font-size: 1.5em;
+  font-size: 1.25em;
   border-bottom: 1px solid var(--color-border-muted);
 }
 
@@ -1009,4 +1009,10 @@ blockquote {
 
 .markdown-body ::-webkit-calendar-picker-indicator {
   filter: invert(50%);
+}
+
+@media (max-width: 600px) {
+  .markdown-body {
+    font-size: 0.85rem;
+  }
 }

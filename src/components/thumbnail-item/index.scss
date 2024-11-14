@@ -40,3 +40,18 @@
 .thumbnail.visible {
   opacity: 1;
 }
+
+@media (max-width: 600px) {
+  h3 {
+    font-size: 1rem;
+    margin: 12px 0px 4px 0px;
+  }
+
+  .thumbnail {
+    margin: 12px 0px;
+    padding: 12px 14px;
+    .summary {
+      line-height: 1.25;
+    }
+  }
+}
