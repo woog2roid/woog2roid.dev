@@ -1,4 +1,5 @@
 const metaConfig = require('./gatsby-meta-config')
+const { slugify } = require('./src/utils/slugify')
 
 module.exports = {
   siteMetadata: metaConfig,
@@ -27,6 +28,12 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
+        tableOfContents: {
+          heading: null,
+          maxDepth: 6,
+          className: 'table-of-contents',
+          slugify: slugify,
+        },
         plugins: [
           {
             resolve: `gatsby-remark-katex`,
@@ -60,19 +67,16 @@ module.exports = {
               inlineCodeMarker: '%',
             },
           },
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
           {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
-              offsetY: `100`,
-              maintainCase: true,
-              removeAccents: true,
-              isIconAfterHeader: false,
+              isIconAfterHeader: true,
               elements: [`h1`, `h2`, `h3`, `h4`],
+              slugify: slugify,
             },
           },
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
-          `gatsby-remark-autolink-headers`,
           `gatsby-remark-emoji`,
         ],
       },
