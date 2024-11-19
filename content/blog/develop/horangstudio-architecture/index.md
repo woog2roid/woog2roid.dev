@@ -3,7 +3,7 @@ title: '호랑이 사진관-v1: 아키텍쳐/포인트 정리'
 date: 2023-09-20 12:00:00
 category: 'Develop'
 draft: false
-tags: ['MSA', 'NoSQL', 'MongoDB', 'Spring', 'FastAPI']
+tags: ['SOA', 'NoSQL', 'MongoDB', 'Spring', 'FastAPI']
 ---
 
 이 글은 AI 모델이 추가된 서비스를 처음으로 개발하고 배포 및 운영까지 해보면서, 특히 신경 썼던 부분을 정리하기 위해 작성되었으며, 해당 파트만을 집중적으로 커버한다.

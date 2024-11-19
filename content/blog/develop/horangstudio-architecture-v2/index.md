@@ -3,7 +3,7 @@ title: '호랑이 사진관-v2: 서버 아키텍쳐 및 포인트 정리'
 date: 2024-06-23 12:00:00
 category: 'Develop'
 draft: false
-tags: ['MSA', 'semi-MSA', 'NoSQL', 'Firestore', 'nestJS', 'RabbitMQ', 'FastAPI']
+tags: ['MSA', 'SOA', 'NoSQL', 'FireStore', 'nestJS', 'RabbitMQ', 'FastAPI']
 ---
 
 이 글은 GDSC 내부 메인 프로젝트였던 호랑이 사진관의 전반적인 (서버 사이드)아키텍처를 설명한다.
